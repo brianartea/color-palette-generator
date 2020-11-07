@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function ff() {
+        var focusval1 = document.getElementById("aa1").value;
+        var focusval2 = document.getElementById("aa2").value;
+        document.getElementById("aa").innerHTML = focusval1;
+        document.getElementById("bb").innerHTML = focusval2;
+      }
+    </script>
+    Name:
+    <input type="text" name="name" autofocus="autofocus" id="aa1" /> Contact
+    Num: <input type="text" name="num" id="aa2" />
+    <input type="button" value="Submit" onclick="ff()" />
+    <div id="aa"></div>
+    <div id="bb"></div>
+  </body>
+</html>
