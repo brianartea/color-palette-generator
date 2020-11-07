@@ -1,7 +1,8 @@
 ﻿# Color-picker
 
 An application where you can create and save your palettes
-[coloor.work](https://coloor.work)
+[color-palette](https://expertdesign.cc/color-palette/)
+
 ---
 
 #### About
